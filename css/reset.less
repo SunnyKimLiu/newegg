@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html,body{
+    width:100%;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+.clearfix{
+    *zoom: 1;
+    &:after{
+        content:"";
+        visibility: hidden;
+        clear: both;
+        display: block;
+        height: 0;
+    }
+}
